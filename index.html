@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+        <div class="copyright">
+        <p class = "into-paragraph" id="para_1">@2024</p>
+        <a href="#" style="margin-top: 0.9rem;">Kelvin Njuguna</a>
+        </div>
+
+        <div class="comp-player">
+        <p class = "compyuter-score" id="comp-span">Compyuter 0</span></p>
+        <p class= "player-score" id="player-span"> Player 0</span></p>
+        </div>
+
+        </div>
+
+        <section class = "comp-section">
+            <div class="comp-div">
+                <p>Compyuter</p>  
+            </div>
+
+        <div class="computer-choice" id = "machine-choice">
+            <span id = "comp-choice" class=" machine_choice"> </span>
+            
+        </div>
+        </section>
+        <div class="heading-2">
+        <h2 id = "header-score" class = "status-text" style="font-size: small;">PLAYER WINS</h2>
+        </div>
+
+        <section class = "player-section">
+            <div class="player-div">
+                <p>Player</p>
+            </div>
+            
+        <div class="player-choice" id="player-choice">
+            <span id = "user-choice" class = "rock-emoji"></span>
+        </div>
+        </section>
+
+        <div class="choice-buttons">
+            <div class="wrap">
+            <button id="rock" type="button"><span class = "emoji">✊</span><br>
+                <span class="text">Rock</span>
+            </button>
+            <button id="paper" type="button"><span class = "emoji">✋</span><br>
+                <span class="text">Paper</span>
+            </button>
+            <button id="scissors" type="button"><span class = "emoji">✌</span><br>
+                <span class="text">Scissors</span>
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
